@@ -1,20 +1,12 @@
 {
   "recette": {
     "Gyozas": {
-      "nombre de personne": "6",
-      "temps": [
-        {
-          "temps total": "45 minutes"
-        },
-        {
-          "temps de préparation": "30 minutes"
-        },
-        {
-          "temps de cuisson": "15 minutes"
-        }
-      ],
+      "nombredepersonne": "6",
+      "tempstotal": "45 minutes",
+      "tempsdepréparation": "30 minutes",
+      "tempsdecuisson": "15 minutes",
       "difficulte": "facile",
-      "Listes des ingredients": [
+      "Listesdesingredients": [
         {
           "preparation1": [
             {
@@ -73,7 +65,7 @@
           ]
         }
       ],
-      "liste des etapes": [
+      "listedesetapes": [
         {
           "etape1": "Commencez par préparer la farce de vos Gyozas ou Raviolis japonais."
         },
@@ -107,21 +99,11 @@
       ]
     },
     "Soupe chinoise pimentée": {
-      "nombre de personne": "4",
-      "temps": [
-        {
-          "temps total": "1 heure 35 minutes"
-        },
-        {
-          "temps de préparation": "30 minutes"
-        },
-        {
-          "temps de cuisson": "35 minutes"
-        },
-        {
-          "temps de repos": "30 minutes"
-        }
-      ],
+      "nombredepersonne": "4",
+      "temps total": "1 heure 35 minutes",
+      "temps de préparation": "30 minutes",
+      "temps de cuisson": "35 minutes",
+      "temps de repos": "30 minutes",
       "difficulte": "facile",
       "Listes des ingredients": [
         {
@@ -184,17 +166,9 @@
     },
     "Riz cantonnais": {
       "nombre de personne": "4",
-      "temps": [
-        {
-          "temps total": "30 minutes"
-        },
-        {
-          "temps de préparation": "10 minutes"
-        },
-        {
-          "temps de cuisson": "20 minutes"
-        }
-      ],
+      "temps total": "30 minutes",
+      "temps de préparation": "10 minutes",
+      "temps de cuisson": "20 minutes",
       "difficulte": "facile",
       "Listes des ingredients": [
         {
@@ -248,17 +222,9 @@
     },
     "Ramen (bouillon de nouilles japonais au porc)": {
       "nombre de personne": "4",
-      "temps": [
-        {
-          "temps total": "45 minutes"
-        },
-        {
-          "temps de préparation": "30 minutes"
-        },
-        {
-          "temps de cuisson": "15 minutes"
-        }
-      ],
+      "temps total": "45 minutes",
+      "temps de préparation": "30 minutes",
+      "temps de cuisson": "15 minutes",
       "difficulte": "intermédiaire",
       "Listes des ingredients": [
         {
@@ -333,20 +299,10 @@
     },
     "Sushi Maki (poulet/avocat)": {
       "nombre de personne": "2",
-      "temps": [
-        {
-          "temps total": "3 heures 25 minutes"
-        },
-        {
-          "temps de préparation": "1 heure"
-        },
-        {
-          "temps de cuisson": "25 minutes"
-        },
-        {
-          "temps de repos": "2 heures"
-        }
-      ],
+      "temps total": "3 heures 25 minutes",
+      "temps de préparation": "1 heure",
+      "temps de cuisson": "25 minutes",
+      "temps de repos": "2 heures",
       "difficulte": "facile",
       "Listes des ingredients": [
         {
