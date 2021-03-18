@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: "SandBeach";
+    src: url("Sand-Beach-Demo.ttf");
+}
+
+.background{
+    background-color: black;
+    height: 100vh;
+}
+
+.title{
+    color: white;
+    font-size: 45px;
+    font-family: "SandBeach";
+    text-align: center;
+    padding-top: 20px;
+}
+
+.line{
+    margin: 0px 45% 0px 45%;
+    border-top: solid 1px red;
+}
