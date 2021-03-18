@@ -1,481 +1,612 @@
 {
-  "recette": {
-    "Gyozas": {
+  "recette": [
+    {
+      "titre": "Gyozas",
       "nombredepersonne": "6",
       "tempstotal": "45 minutes",
       "tempsdepréparation": "30 minutes",
       "tempsdecuisson": "15 minutes",
       "difficulte": "facile",
-      "Listesdesingredients": [
+      "ingredients": [
         {
-          "preparation1": [
-            {
-              "titre": "La pâte"
-            },
-            {
-              "ingredient1": "32 piece  de pâtes à gyoza"
-            },
-            {
-              "ingredient2": "20g de farine de blé"
-            }
-          ]
+          "preparation": "La pâte",
+          "nom":"pâtes à gyoza",
+          "quantite": "32 piece"
         },
         {
-          "preparation2": [
-            {
-              "titre": "La farce"
-            },
-            {
-              "ingredient1": "300 g de viande de porc"
-            },
-            {
-              "ingredient2": "0,25 pièce de choux chinois"
-            },
-            {
-              "ingredient3": "20 g de gingembre frais"
-            },
-            {
-              "ingredient4": "2 gousses d'ail"
-            },
-            {
-              "ingredient5": "3 cl d'huile de sésame"
-            },
-            {
-              "ingredient6": "1 cl de sauce soja"
-            },
-            {
-              "ingredient7": "1 cl d'huile de tournesol"
-            },
-            {
-              "ingredient8": "0,5 botte de ciboulette"
-            }
-          ]
+          "preparation": "La pâte",
+          "nom": "farine de blé",
+          "quantite": "20g"
         },
         {
-          "preparation3": [
-            {
-              "titre": "La sauce"
-            },
-            {
-              "ingredient1": "10 cl de vinaigre de riz"
-            },
-            {
-              "ingredient2": "5 cl de sauce soja"
-            }
-          ]
+          "preparation": "La farce",
+          "nom":"viande de porc",
+          "quantite": "300g"
+        },
+        {
+          "preparation": "La farce",
+          "nom": "choux chinois",
+          "quantite": "0,25 pièce"
+        },
+        {
+          "preparation": "La farce",
+          "nom": "gingembre frais",
+          "quantite": "20g"
+        },
+        {
+          "preparation": "La farce",
+          "nom": "ail",
+          "quantite": "2 gousses"
+        },
+        {
+          "preparation": "La farce",
+          "nom": "huile de sésame",
+          "quantite": "3cl"
+        },
+        {
+          "preparation": "La farce",
+          "nom": "sauce soja",
+          "quantite": "1cl"
+        },
+        {
+          "preparation": "La farce",
+          "nom": "huile de tournesol",
+          "quantite": "1cl"
+        },
+        {
+          "preparation": "La farce",
+          "nom": "ciboulette",
+          "quantite": "0,5 botte"
+        },
+        {
+          "preparation": "La sauce",
+          "nom": "vinaigre de riz",
+          "quantite": "10cl"
+        },
+        {
+          "preparation": "La sauce",
+          "nom": "sauce soja",
+          "quantite": "5cl"
         }
       ],
-      "listedesetapes": [
+      "etapes": [
         {
-          "etape1": "Commencez par préparer la farce de vos Gyozas ou Raviolis japonais."
+          "nom":"étape 1",
+          "description": "Commencez par préparer la farce de vos Gyozas ou Raviolis japonais."
         },
         {
-          "etape2": "Prenez un robot et mixez la viande de porc, les épices ainsi que les aromates. Versez l'huile de sésame. Ajoutez la sauce soja et la ciboulette préalablement hachée en morceaux. Prenez soin de bien hacher la préparation et de la rendre parfaitement homogène."
+          "nom":"étape 2",
+          "description": "Prenez un robot et mixez la viande de porc, les épices ainsi que les aromates. Versez l'huile de sésame. Ajoutez la sauce soja et la ciboulette préalablement hachée en morceaux. Prenez soin de bien hacher la préparation et de la rendre parfaitement homogène."
         },
         {
-          "etape3": "Passez le chou à l'eau courante. Puis, faites-le cuire tout de suite avec l'huile de sésame dans une poêle."
+          "nom":"étape 3",
+          "description": "Passez le chou à l'eau courante. Puis, faites-le cuire tout de suite avec l'huile de sésame dans une poêle."
         },
         {
-          "etape4": "Ajoutez également le chou à la farce avant de mélanger le tout.."
+          "nom":"étape 4",
+          "description": "Ajoutez également le chou à la farce avant de mélanger le tout.."
         },
         {
-          "etape5": "Placez une noisette de farce au cœur des disques de pâte. Repliez celle-ci en 2 par la suite. De cette façon, la pâte donne une forme de chausson. Pliez les bords jusqu'à ce que le ravioli soit bien fermé."
+          "nom":"étape 5",
+          "description": "Placez une noisette de farce au cœur des disques de pâte. Repliez celle-ci en 2 par la suite. De cette façon, la pâte donne une forme de chausson. Pliez les bords jusqu'à ce que le ravioli soit bien fermé."
         },
         {
-          "etape6": "Saupoudrez de farine un plan de travail et déposez-y les gyozas."
+          "nom":"étape 6",
+          "description": "Saupoudrez de farine un plan de travail et déposez-y les gyozas."
         },
         {
-          "etape7": "Lorsque ces derniers sont modelés, utilisez une poêle pour faire chauffer un filet d'huile de tournesol. Cuisez-les durant 3 min jusqu'à l'obtention d'une couleur dorée."
+          "nom":"étape 7",
+          "description": "Lorsque ces derniers sont modelés, utilisez une poêle pour faire chauffer un filet d'huile de tournesol. Cuisez-les durant 3 min jusqu'à l'obtention d'une couleur dorée."
         },
         {
-          "etape8": "Versez ensuite de l'eau jusqu'à mi-hauteur des gyozas. Couvrez la préparation et laissez mijoter jusqu'à ce que le bouillon soit parfaitement abaissé."
+          "nom":"étape 8",
+          "description": "Versez ensuite de l'eau jusqu'à mi-hauteur des gyozas. Couvrez la préparation et laissez mijoter jusqu'à ce que le bouillon soit parfaitement abaissé."
         },
         {
-          "etape9": "Pendant la cuisson, les gyozas doivent gonfler et ils sont prêts une fois que la pâte commence à être translucide."
+          "nom":"étape 9",
+          "description": "Pendant la cuisson, les gyozas doivent gonfler et ils sont prêts une fois que la pâte commence à être translucide."
         },
         {
-          "etape10": "Préparez le mélange de sauce soja et de vinaigre de riz avant de servir vos Gyozas ou Raviolis japonais."
+          "nom":"étape 10",
+          "description": "Préparez le mélange de sauce soja et de vinaigre de riz avant de servir vos Gyozas ou Raviolis japonais."
         }
       ]
     },
-    "Soupe chinoise pimentée": {
+    {
+      "titre" : "Soupe chinoise pimentée",
       "nombredepersonne": "4",
-      "temps total": "1 heure 35 minutes",
-      "temps de préparation": "30 minutes",
-      "temps de cuisson": "35 minutes",
-      "temps de repos": "30 minutes",
+      "tempstotal": "1 heure 35 minutes",
+      "tempsdepréparation": "30 minutes",
+      "tempsdecuisson": "35 minutes",
+      "tempsderepos": "30 minutes",
       "difficulte": "facile",
-      "Listes des ingredients": [
+      "ingredients": [
         {
-          "titre": "pas de préparation"
+          "preparation": "",
+          "nom":"bouillon de légumes",
+          "quantite": "1,25l"
         },
         {
-          "ingredient1": "1,25 l de bouillon de légumes"
+          "preparation": "",
+          "nom": "tomates",
+          "quantite": "3"
         },
         {
-          "ingredient2": "3 tomates"
+          "preparation": "",
+          "nom":"laitue",
+          "quantite": "1/2",
         },
         {
-          "ingredient3": "1/2 laitue"
+          "preparation": "",
+          "nom": "champignons noirs séchés",
+          "quantite": "30g"
         },
         {
-          "ingredient4": "30 g de champignons noirs séchés"
+          "preparation": "",
+          "nom": "oeufs",
+          "quantite": "2"
         },
         {
-          "ingredient5": "2 oeufs"
+          "preparation": "",
+          "nom": "sauce soja",
+          "quantite": ""
         },
         {
-          "ingredient6": "sauce de soja"
+          "preparation": "",
+          "nom": "piment (ou des gouttes de Tabasco)",
+          "quantite": "1/2 c. à soupe"
         },
         {
-          "ingredient7": "1/2 c. à soupe de piment (ou des gouttes de Tabasco)"
+          "preparation": "",
+          "nom": "gingembre en poudre",
+          "quantite": "1/2 c. à café"
         },
         {
-          "ingredient8": "1/2 c. à café de gingembre en poudre"
-        },
-        {
-          "ingredient9": "sel, poivre"
+          "preparation": "",
+          "nom": "sel, poivre",
+          "quantite": ""
         }
       ],
-      "liste des etapes": [
+      "etapes": [
         {
-          "etape1": "Lavez bien et égouttez la laitue. Coupez-la en fines lanières."
+          "nom":"étape 1",
+          "description": "Lavez bien et égouttez la laitue. Coupez-la en fines lanières."
         },
         {
-          "etape2": "Lavez, pelez et épépinez les tomates. Coupez-les en petits dés."
+          "nom":"étape 2",
+          "description": "Lavez, pelez et épépinez les tomates. Coupez-les en petits dés."
         },
         {
-          "etape3": "Faites tremper les champignons noirs 30 min dans un bol d'eau tiède afin qu'ils se réhydratent et gonflent. Rincez-les bien, égouttez-les (ou épongez-les) puis coupez-les en fines lamelles."
+          "nom":"étape 3",
+          "description": "Faites tremper les champignons noirs 30 min dans un bol d'eau tiède afin qu'ils se réhydratent et gonflent. Rincez-les bien, égouttez-les (ou épongez-les) puis coupez-les en fines lamelles."
         },
         {
-          "etape4": "Dans une casserole, versez 1,25 l d'eau additionnée du bouillon cube (émietté pour qu'il fonde mieux)."
+          "nom":"étape 4",
+          "description": "Dans une casserole, versez 1,25 l d'eau additionnée du bouillon cube (émietté pour qu'il fonde mieux)."
         },
         {
-          "etape5": "Dès que l'eau est frémissante, ajoutez les légumes et l'assaisonnement. Laissez mijoter 30 à 35 min."
+          "nom":"étape 5",
+          "description": "Dès que l'eau est frémissante, ajoutez les légumes et l'assaisonnement. Laissez mijoter 30 à 35 min."
         },
         {
-          "etape6": "Pendant ce temps, battez les oeufs en omelette. Salez et poivrez. Faites chauffer une poêle à revêtement anti-adhésif (ou à défaut une poêle légèrement huilée), et versez les oeufs dedans. Dès que les oeufs commencent à prendre, retirez du feu. Coupez-les en fines lanières."
+          "nom":"étape 6",
+          "description": "Pendant ce temps, battez les oeufs en omelette. Salez et poivrez. Faites chauffer une poêle à revêtement anti-adhésif (ou à défaut une poêle légèrement huilée), et versez les oeufs dedans. Dès que les oeufs commencent à prendre, retirez du feu. Coupez-les en fines lanières."
         },
         {
-          "etape7": "Ajoutez-les au potage. Goûtez et rectifiez l'assaisonnement si nécessaire."
+          "nom":"étape 7",
+          "description": "Ajoutez-les au potage. Goûtez et rectifiez l'assaisonnement si nécessaire."
         },
         {
-          "etape8": "Servez votre soupe chinoise pimentée aussitôt, dans des bols ou des assiettes creuses."
+          "nom":"étape 8",
+          "description": "Servez votre soupe chinoise pimentée aussitôt, dans des bols ou des assiettes creuses."
         }
       ]
     },
-    "Riz cantonnais": {
-      "nombre de personne": "4",
-      "temps total": "30 minutes",
-      "temps de préparation": "10 minutes",
-      "temps de cuisson": "20 minutes",
+    {
+      "titre": "Riz cantonnais",
+      "nombredepersonne": "4",
+      "tempstotal": "30 minutes",
+      "tempsde préparation": "10 minutes",
+      "tempsdecuisson": "20 minutes",
       "difficulte": "facile",
-      "Listes des ingredients": [
+      "ingredients": [
         {
-          "titre": "pas de préparation"
+          "preparation": "",
+          "nom":"riz",
+          "quantite": "250g"
         },
         {
-          "ingredient1": "250 g de riz"
+          "preparation": "",
+          "nom": "petits pois",
+          "quantite": "125g"
         },
         {
-          "ingredient2": "125 g de petits pois"
+          "preparation": "",
+          "nom": "cubes de jambon",
+          "quantite": "75g"
         },
         {
-          "ingredient3": "75 g de cubes de jambon"
+          "preparation": "",
+          "nom": "oeufs",
+          "quantite": "2"
         },
         {
-          "ingredient4": "2 œufs"
+          "preparation": "",
+          "nom": "huile",
+          "quantite": ""
         },
         {
-          "ingredient5": "huile"
+          "preparation": "",
+          "nom": "beurre",
+          "quantite": ""
         },
         {
-          "ingredient6": "beurre"
-        },
-        {
-          "ingredient7": "sel, poivre"
+          "preparation": "",
+          "nom": "sel, poivre",
+          "quantite": ""
         }
       ],
-      "liste des etapes": [
+      "etapes": [
         {
-          "etape1": "Dans une casserole d’eau salée, faites cuire le riz. Égouttez-le et réservez-le pour plus tard."
+          "nom":"étape 1",
+          "description": "Dans une casserole d’eau salée, faites cuire le riz. Égouttez-le et réservez-le pour plus tard."
         },
         {
-          "etape2": "Dans un saladier, cassez les œufs et battez-les en omelette. Salez, poivrez et ajoutez un peu de ciboulette."
+          "nom":"étape 2",
+          "description": "Dans un saladier, cassez les œufs et battez-les en omelette. Salez, poivrez et ajoutez un peu de ciboulette."
         },
         {
-          "etape3": "Dans une poêle, faites fondre une noix de beurre et versez les œufs, quand l'omelette commence à prendre, secouez vigoureusement la poêle pour que l’œuf se répartisse bien et cuise plus vite."
+          "nom":"étape 3",
+          "description": "Dans une poêle, faites fondre une noix de beurre et versez les œufs, quand l'omelette commence à prendre, secouez vigoureusement la poêle pour que l’œuf se répartisse bien et cuise plus vite."
         },
         {
-          "etape4": "Dés que l'omelette est prise sur un coté, retournez-la pour faire cuire l'autre côté, réservez-la dans une assiette et coupez la en petits cubes."
+          "nom":"étape 4",
+          "description": "Dés que l'omelette est prise sur un coté, retournez-la pour faire cuire l'autre côté, réservez-la dans une assiette et coupez la en petits cubes."
         },
         {
-          "etape5": "Dans une poêle, faites chauffer de l’huile, ajoutez le riz cuit, l'omelette, les petits pois et les cubes de jambon puis laissez cuire 5 min en mélangeant."
+          "nom":"étape 5",
+          "description": "Dans une poêle, faites chauffer de l’huile, ajoutez le riz cuit, l'omelette, les petits pois et les cubes de jambon puis laissez cuire 5 min en mélangeant."
         },
         {
-          "etape6": "Assaisonnez."
+          "nom":"étape 6",
+          "description": "Assaisonnez."
         },
         {
-          "etape7": "Servez bien chaud."
+          "nom":"étape 7",
+          "description": "Servez bien chaud."
         }
       ]
     },
-    "Ramen (bouillon de nouilles japonais au porc)": {
-      "nombre de personne": "4",
-      "temps total": "45 minutes",
-      "temps de préparation": "30 minutes",
-      "temps de cuisson": "15 minutes",
+    {
+      "titre" : "Ramen (bouillon de nouilles japonais au porc)",
+      "nombredepersonne": "4",
+      "tempstotal": "45 minutes",
+      "tempsdepréparation": "30 minutes",
+      "tempsdecuisson": "15 minutes",
       "difficulte": "intermédiaire",
-      "Listes des ingredients": [
+      "ingredients": [
         {
-          "titre": "pas de préparation"
+          "preparation": "",
+          "nom":"ramen (nouilles japonaises)",
+          "quantite": "720g"
         },
         {
-          "ingredient1": "720 g de ramen (nouilles japonaises)"
+          "preparation": "",
+          "nom": "filet mignon de porc",
+          "quantite": "200g"
         },
         {
-          "ingredient2": "200 g de filet mignon de porc"
+          "preparation": "",
+          "nom": "pousses d'épinard",
+          "quantite": "100g"
         },
         {
-          "ingredient3": "100 g de pousses d'épinard"
+          "preparation": "",
+          "nom": "oignons nouveaux",
+          "quantite": "3"
         },
         {
-          "ingredient4": "3 oignons nouveaux"
+          "preparation": "",
+          "nom": "pousses de bambou en conserve",
+          "quantite": "1 boîte"
         },
         {
-          "ingredient5": "1 boîte de pousses de bambou en conserve"
+          "preparation": "",
+          "nom": "nori",
+          "quantite": "2 feuilles"
         },
         {
-          "ingredient6": "2 feuilles de nori"
+          "preparation": "",
+          "nom": "oeufs",
+          "quantite": "2"
         },
         {
-          "ingredient7": "2 œufs"
+          "preparation": "",
+          "nom": "eau",
+          "quantite": "60cl"
         },
         {
-          "ingredient6": "60 cl d'eau"
-        },
-        {
-          "ingredient7": "3 c. à soupe de sauce soja"
+          "preparation": "",
+          "nom": "sauce soja",
+          "quantite": "3 c. à soupe"
         }
       ],
-      "liste des etapes": [
+      "etapes": [
         {
-          "etape1": "Rincez puis égouttez les pousses d'épinards."
+          "nom":"étape 1",
+          "description": "Rincez puis égouttez les pousses d'épinards."
         },
         {
-          "etape2": "Ensuite, sur votre planche de cuisine, épluchez et hachez-finement les oignons."
+          "nom":"étape 2",
+          "description": "Ensuite, sur votre planche de cuisine, épluchez et hachez-finement les oignons."
         },
         {
-          "etape3": "Égouttez les pousses de bambou."
+          "nom":"étape 3",
+          "description": "Égouttez les pousses de bambou."
         },
         {
-          "etape4": "Découpez les feuilles de nori en julienne."
+          "nom":"étape 4",
+          "description": "Découpez les feuilles de nori en julienne."
         },
         {
-          "etape5": "Découpez également le filet mignon en petites tranches."
+          "nom":"étape 5",
+          "description": "Découpez également le filet mignon en petites tranches."
         },
         {
-          "etape6": "Mettez une casserole d’eau sur le feu. Faites-y cuire les œufs pendant 9 min. Au bout de ce temps, retirez-les. Laissez-les refroidir puis écalez-les."
+          "nom":"étape 6",
+          "description": "Mettez une casserole d’eau sur le feu. Faites-y cuire les œufs pendant 9 min. Au bout de ce temps, retirez-les. Laissez-les refroidir puis écalez-les."
         },
         {
-          "etape7": "Prenez une casserole. Mettez-la au feu. Faites-y bouillir l'eau avec les assaisonnements des Ramen ainsi que la sauce soja."
+          "nom":"étape 7",
+          "description": "Prenez une casserole. Mettez-la au feu. Faites-y bouillir l'eau avec les assaisonnements des Ramen ainsi que la sauce soja."
         },
         {
-          "etape8": "Incorporez les Ramen puis, les tranches de filet mignon."
+          "nom":"étape 8",
+          "description": "Incorporez les Ramen puis, les tranches de filet mignon."
         },
         {
-          "etape9": "Laissez cuire pendant 2 min puis servez aussitôt dans des bols."
+          "nom":"étape 9",
+          "description": "Laissez cuire pendant 2 min puis servez aussitôt dans des bols."
         },
         {
-          "etape10": "Émincez les oignons nouveaux. Parsemez-en dans les bols puis parsemez de pousses d'épinards, de pousses de bambou et de julienne de feuille de nori."
+          "nom":"étape 10",
+          "description": "Émincez les oignons nouveaux. Parsemez-en dans les bols puis parsemez de pousses d'épinards, de pousses de bambou et de julienne de feuille de nori."
         },
         {
-          "etape11": "Achevez la présentation avec 1 demi-œuf dur."
+          "nom":"étape 11",
+          "description": "Achevez la présentation avec 1 demi-œuf dur."
         },
         {
-          "etape12": "Le Ramen (bouillon de nouilles japonais au porc) est prêt, servez bien chaud !"
+          "nom":"étape 12",
+          "description": "Le Ramen (bouillon de nouilles japonais au porc) est prêt, servez bien chaud !"
         }
       ]
     },
-    "Sushi Maki (poulet/avocat)": {
+    {
+      "titre": "Sushi Maki (poulet/avocat)",
       "nombre de personne": "2",
-      "temps total": "3 heures 25 minutes",
-      "temps de préparation": "1 heure",
-      "temps de cuisson": "25 minutes",
-      "temps de repos": "2 heures",
+      "tempstotal": "3 heures 25 minutes",
+      "tempsdepréparation": "1 heure",
+      "tempsdecuisson": "25 minutes",
+      "tempsderepos": "2 heures",
       "difficulte": "facile",
-      "Listes des ingredients": [
+      "ingredients": [
         {
-          "preparation3": [
-            {
-              "titre": "Pour 16 maki"
-            },
-            {
-              "ingredient1": "80 g de riz long grain"
-            },
-            {
-              "ingredient2": "2 c. à soupe de vinaigre de riz"
-            },
-            {
-              "ingredient3": "2 c. à café de sucre en poudre"
-            },
-            {
-              "ingredient4": "2 feuilles d'algues Nori (disponibles dans les épiceries asiatiques et certaines grandes surfaces)"
-            },
-            {
-              "ingredient5": "quelques feuilles de salade verte"
-            },
-            {
-              "ingredient6": "environ 100 g de poulet"
-            },
-            {
-              "ingredient7": "1 moitié d'avocat"
-            },
-            {
-              "ingredient8": "de la sauce soja et du wasabi au moment de la dégustation"
-            }
-          ]
+          "preparation": "Pour 16 maki",
+          "nom":"riz long grain",
+          "quantite": "80g"
+        },
+        {
+          "preparation": "Pour 16 maki",
+          "nom": "vinaigre de riz",
+          "quantite": "2 c. à soupe"
+        },
+        {
+          "preparation": "Pour 16 maki",
+          "nom": "sucre en poudre",
+          "quantite": "2 c. à café"
+        },
+        {
+          "preparation": "Pour 16 maki",
+          "nom": "algues Nori (disponibles dans les épiceries asiatiques et certaines grandes surfaces)",
+          "quantite": "2 feuilles"
+        },
+        {
+          "preparation": "Pour 16 maki",
+          "nom": "salade verte",
+          "quantite": "quelques feuilles"
+        },
+        {
+          "preparation": "Pour 16 maki",
+          "nom": "poulet",
+          "quantite": "100g"
+        },
+        {
+          "preparation": "Pour 16 maki",
+          "nom": "avocat",
+          "quantite": "1/2"
+        },
+        {
+          "preparation": "Pour 16 maki",
+          "nom": "de la sauce soja et du wasabi au moment de la dégustation",
+          "quantite": ""
         }
       ],
-      "liste des etapes": [
+      "etapes": [
         {
-          "etape1": "Préparation du riz :"
+          "nom":"étape 1",
+          "description": "Préparation du riz :"
         },
         {
-          "etape2": "Faites cuire le riz environ 15 minutes pour le rendre collant."
+          "nom":"étape 2",
+          "description": "Faites cuire le riz environ 15 minutes pour le rendre collant."
         },
         {
-          "etape3": "Pendant la cuisson du riz, mettez le vinaigre de riz dans un bol et faîtes-y dissoudre le sucre en poudre."
+          "nom":"étape 3",
+          "description": "Pendant la cuisson du riz, mettez le vinaigre de riz dans un bol et faîtes-y dissoudre le sucre en poudre."
         },
         {
-          "etape4": "Si vous aimez, vous pouvez aussi ajouter un peu de gingembre dans la préparation."
+          "nom":"étape 4",
+          "description": "Si vous aimez, vous pouvez aussi ajouter un peu de gingembre dans la préparation."
         },
         {
-          "etape5": "Égouttez le riz et laissez-le refroidir un peu. Puis ajoutez la préparation à base de vinaigre et mélangez. Le tout doit être très collant."
+          "nom":"étape 5",
+          "description": "Égouttez le riz et laissez-le refroidir un peu. Puis ajoutez la préparation à base de vinaigre et mélangez. Le tout doit être très collant."
         },
         {
-          "etape6": "Ensuite, découpez les avocats et le poulet en lamelles."
+          "nom":"étape 6",
+          "description": "Ensuite, découpez les avocats et le poulet en lamelles."
         },
         {
-          "etape7": "Pour l'assemblage, disposez une feuille d'algue Nori sur le plan de travail. Étalez le riz et tassez-le sur la feuille d'algue à l'aide d'une cuillère à soupe. Attention, il faut laisser environ 2 centimètres d'algue sans riz sur le coin supérieur de la longueur de l'algue Nori."
+          "nom":"étape 7",
+          "description": "Pour l'assemblage, disposez une feuille d'algue Nori sur le plan de travail. Étalez le riz et tassez-le sur la feuille d'algue à l'aide d'une cuillère à soupe. Attention, il faut laisser environ 2 centimètres d'algue sans riz sur le coin supérieur de la longueur de l'algue Nori."
         },
         {
-          "etape8": "Ajoutez de la salade en bas de l'algue, ainsi que les lamelles d'avocat."
+          "nom":"étape 8",
+          "description": "Ajoutez de la salade en bas de l'algue, ainsi que les lamelles d'avocat."
         },
         {
-          "etape9": "Enfin, ajoutez le poulet à côté de l'avocat."
+          "nom":"étape 9",
+          "description": "Enfin, ajoutez le poulet à côté de l'avocat."
         },
         {
-          "etape10": "Pour rouler la feuille d'algue, il faut serrer le plus possible le rouleau en faisant attention de ne pas le déchirer."
+          "nom":"étape 10",
+          "description": "Pour rouler la feuille d'algue, il faut serrer le plus possible le rouleau en faisant attention de ne pas le déchirer."
         },
         {
-          "etape11": "Laissez les rouleaux reposer 2 heures environ au frigo, puis sortez-les. Prenez un couteau qui coupe bien et couper les rouleaux tous les 2 cms environ. Voilà, vos Sushi Maki sont prêts !! A déguster avec la sauce soja et du wasabi !"
+          "nom":"étape 11",
+          "description": "Laissez les rouleaux reposer 2 heures environ au frigo, puis sortez-les. Prenez un couteau qui coupe bien et couper les rouleaux tous les 2 cms environ. Voilà, vos Sushi Maki sont prêts !! A déguster avec la sauce soja et du wasabi !"
         }
       ]
     },
-    "Bo bun, salade de boeuf à la vietnamienne": {
+    {
+      "titre": "Bo bun, salade de boeuf à la vietnamienne",
       "nombre de personne": "4",
-      "temps": [
-        {
-          "temps total": "1 heure 50 minutes"
-        },
-        {
-          "temps de préparation": "20 minutes"
-        },
-        {
-          "temps de cuisson": "30 minutes"
-        },
-        {
-          "temps de repos": "1 heure"
-        }
-      ],
+      "tempstotal": "1 heure 50 minutes",
+      "tempsdepréparation": "20 minutes",
+      "tempsdecuisson": "30 minutes",
+      "tempsderepos": "1 heure",
       "difficulte": "facile",
-      "Listes des ingredients": [
+      "ingredients": [
         {
-          "titre": "pas de préparation"
+          "preparation": "",
+          "nom":"vermicelles de soja",
+          "quantite": "1 paquet"
         },
         {
-          "ingredient1": "1 paquet de vermicelles de soja"
+          "preparation": "",
+          "nom": "steak",
+          "quantite": "400g"
         },
         {
-          "ingredient2": "400 g de steak"
+          "preparation": "",
+          "nom": "carottes râpées",
+          "quantite": "400g"
         },
         {
-          "ingredient3": "400 g de carottes râpées"
+          "preparation": "",
+          "nom": "soja frais",
+          "quantite": "400g"
         },
         {
-          "ingredient4": "400 g de soja frais"
+          "preparation": "",
+          "nom": "salades sucrines",
+          "quantite": "2"
         },
         {
-          "ingredient5": "2 salades sucrines"
+          "preparation": "",
+          "nom": "cacahuètes pilées",
+          "quantite": "2 poignées"
         },
         {
-          "ingredient6": "2 poignées de cacahuètes pilées"
+          "preparation": "",
+          "nom": "échalote",
+          "quantite": "1"
         },
         {
-          "ingredient7": "1 échalote"
+          "preparation": "",
+          "nom": "ail",
+          "quantite": "2 gousses"
         },
         {
-          "ingredient8": "2 gousses d'ail"
+          "preparation": "",
+          "nom": "citrons (on peut aussi mettre du citron vert)",
+          "quantite": "1 ou 2"
         },
         {
-          "ingredient9": "1 ou 2 citrons (on peut aussi mettre du citron vert)"
+          "preparation": "",
+          "nom": "menthe et coriandre fraîches hachées",
+          "quantite": ""
         },
         {
-          "ingredient10": "menthe et coriandre fraîches hachées"
+          "preparation": "",
+          "nom": "sauce nuoc mam",
+          "quantite": ""
         },
         {
-          "ingredient11": "sauce nuoc mam"
-        },
-        {
-          "ingredient12": "quelques gouttes de tabasco ou piment en poudre"
+          "preparation": "",
+          "nom": "tabasco ou piment en poudre",
+          "quantite": "quelques gouttes"
         }
       ],
-      "liste des etapes": [
+      "etapes": [
         {
-          "etape1": "Coupez le steak en petites lamelles."
+          "nom":"étape 1",
+          "description": "Coupez le steak en petites lamelles."
         },
         {
-          "etape2": "Pelez l'échalote et l'ail, puis hachez-les."
+          "nom":"étape 2",
+          "description": "Pelez l'échalote et l'ail, puis hachez-les."
         },
         {
-          "etape3": "Lavez, séchez et hachez la coriandre fraîche."
+          "nom":"étape 3",
+          "description": "Lavez, séchez et hachez la coriandre fraîche."
         },
         {
-          "etape4": "Mélangez le tout dans un plat creux et mettez à mariner dans du nuoc mam (sauce de poisson) et du jus de citron (à presser donc). Couvrez et mettez au frigo durant 1 heure."
+          "nom":"étape 4",
+          "description": "Mélangez le tout dans un plat creux et mettez à mariner dans du nuoc mam (sauce de poisson) et du jus de citron (à presser donc). Couvrez et mettez au frigo durant 1 heure."
         },
         {
-          "etape5": "Pendant ce temps, faites tremper les vermicelles de soja dans de l'eau chaude pendant 10 min, puis faites-les cuire quelques min à l'eau bouillante. Passez-les sous l'eau froide, égouttez bien et réservez."
+          "nom":"étape 5",
+          "description": "Pendant ce temps, faites tremper les vermicelles de soja dans de l'eau chaude pendant 10 min, puis faites-les cuire quelques min à l'eau bouillante. Passez-les sous l'eau froide, égouttez bien et réservez."
         },
         {
-          "etape6": "Lavez, pelez et râpez les carottes."
+          "nom":"étape 6",
+          "description": "Lavez, pelez et râpez les carottes."
         },
         {
-          "etape7": "Lavez, essorez et ciselez les sucrines."
+          "nom":"étape 7",
+          "description": "Lavez, essorez et ciselez les sucrines."
         },
         {
-          "etape8": "Concassez les cacahuètes."
+          "nom":"étape 8",
+          "description": "Concassez les cacahuètes."
         },
         {
-          "etape9": "Préparez également l'assaisonnement avec du nuoc mam additionné de jus de citron."
+          "nom":"étape 9",
+          "description": "Préparez également l'assaisonnement avec du nuoc mam additionné de jus de citron."
         },
         {
-          "etape10": "Puis, égouttez le steack et faites-le revenir dans une poêle un peu huilée."
+          "nom":"étape 10",
+          "description": "Puis, égouttez le steack et faites-le revenir dans une poêle un peu huilée."
         },
         {
-          "etape11": "Gardez la marinade et ajoutez-la à l'assaisonnement."
+          "nom":"étape 11",
+          "description": "Gardez la marinade et ajoutez-la à l'assaisonnement."
         },
         {
-          "etape12": "Préparez les bols de chacun :"
+          "nom":"étape 12",
+          "description": "Préparez les bols de chacun :"
         },
         {
-          "etape13": "Au fond, mettez-y les vermicelles de soja, puis la salade, les carottes, le soja frais, la viande revenue, les cacahuètes pilées, et parsemez de coriandre et de menthe fraîche hachées. Ajoutez du tabasco ou du piment, selon les goûts de chacun."
+          "nom":"étape 13",
+          "description": "Au fond, mettez-y les vermicelles de soja, puis la salade, les carottes, le soja frais, la viande revenue, les cacahuètes pilées, et parsemez de coriandre et de menthe fraîche hachées. Ajoutez du tabasco ou du piment, selon les goûts de chacun."
         },
         {
-          "etape14": "Assaisonnez, mélangez... Votre bo bun, salade de boeuf à la vietnamienne, est prêt. Bon appétit !"
+          "nom":"étape 14",
+          "description": "Assaisonnez, mélangez... Votre bo bun, salade de boeuf à la vietnamienne, est prêt. Bon appétit !"
         }
       ]
-
     }
-  }
+  ]
 }
