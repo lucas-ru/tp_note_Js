@@ -1,6 +1,8 @@
 *{
     margin: 0px;
     padding: 0px;
+    color: white;
+    background-color: black;
 }
 
 @font-face {
@@ -8,13 +10,8 @@
     src: url("Sand-Beach-Demo.ttf");
 }
 
-.background{
-    background-color: black;
-    height: 100vh;
-}
 
 .title{
-    color: white;
     font-size: 45px;
     font-family: "SandBeach";
     text-align: center;
@@ -25,3 +22,8 @@
     margin: 0px 45% 0px 45%;
     border-top: solid 1px red;
 }
+
+.item_recette{
+    margin: 50px;
+}
+

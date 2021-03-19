@@ -206,7 +206,7 @@
       "titre":"Riz cantonnais",
       "nombredepersonne":"4",
       "tempstotal":"30 minutes",
-      "tempsde préparation":"10 minutes",
+      "tempsdepréparation":"10 minutes",
       "tempsdecuisson":"20 minutes",
       "difficulte":"facile",
       "ingredients":[
@@ -384,7 +384,7 @@
     },
     {
       "titre":"Sushi Maki (poulet/avocat)",
-      "nombre de personne":"2",
+      "nombredepersonne":"2",
       "tempstotal":"3 heures 25 minutes",
       "tempsdepréparation":"1 heure",
       "tempsdecuisson":"25 minutes",
@@ -481,7 +481,7 @@
     },
     {
       "titre":"Bo bun, salade de boeuf à la vietnamienne",
-      "nombre de personne":"4",
+      "nombredepersonne":"4",
       "tempstotal":"1 heure 50 minutes",
       "tempsdepréparation":"20 minutes",
       "tempsdecuisson":"30 minutes",
