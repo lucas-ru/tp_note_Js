@@ -18,12 +18,114 @@
     padding-top: 20px;
 }
 
+.subtitle{
+    text-align: center;
+    font-size: 15px;
+}
+
 .line{
     margin: 0px 45% 0px 45%;
     border-top: solid 1px red;
+}
+
+.position_list{
+    margin: 0 auto;
+    width: 50%;
 }
 
 .item_recette{
     margin: 50px;
 }
 
+.item_style{
+    width: 50%;
+}
+
+.title_item{
+    font-family: SandBeach;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.foodCapture{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex_info_parent{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex_info_children_r, .flex_info_children_l{
+    font-size: 10px;
+    padding-top: 5px;
+}
+
+.flex_info_children_r{
+    flex: auto;
+}
+.link_recette, .return{
+    font-size: 15px;
+    text-align: center;
+    background-color: red;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.link_recette{
+    display: block;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 2px;
+    margin-top: 10px;
+}
+
+.prep{
+    padding: 5px;
+}
+
+.return{
+    float: left;
+    padding: 2px 5px 2px 5px;
+    margin: 5px;
+}
+
+.flex_ingredients_parent{
+    margin: 20px 0px 20px 0px;
+}
+
+.item_ing_prep{
+    margin-top: 40px;
+    text-decoration: underline;
+}
+
+.item_ing{
+    margin-left: 30px;
+}
+
+.flex_ingredients_parent{
+    width: 100%;
+}
+
+.item_OneEtape{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 5px;
+}
+
+.item_OneEtape_Nom{
+    text-decoration: underline;
+    flex: 0.3;
+    text-align: center;
+}
+
+.item_OneEtape_Desc{
+    flex: 2;
+}

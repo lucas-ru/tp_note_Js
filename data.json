@@ -1,8 +1,10 @@
 {
   "recette":[
     {
+      "id": 0,
       "titre":"Gyozas",
       "nombredepersonne":"6",
+      "image": "/images/gyozas.jpg",
       "tempstotal":"45 minutes",
       "tempsdepréparation":"30 minutes",
       "tempsdecuisson":"15 minutes",
@@ -113,8 +115,10 @@
       ]
     },
     {
+      "id": 1,
       "titre":"Soupe chinoise pimentée",
       "nombredepersonne":"4",
+      "image": "/images/soupe.jpg",
       "tempstotal":"1 heure 35 minutes",
       "tempsdepréparation":"30 minutes",
       "tempsdecuisson":"35 minutes",
@@ -203,8 +207,10 @@
       ]
     },
     {
+      "id": 2,
       "titre":"Riz cantonnais",
       "nombredepersonne":"4",
+      "image": "/images/cantonnais.jpg",
       "tempstotal":"30 minutes",
       "tempsdepréparation":"10 minutes",
       "tempsdecuisson":"20 minutes",
@@ -278,8 +284,10 @@
       ]
     },
     {
+      "id": 3,
       "titre":"Ramen (bouillon de nouilles japonais au porc)",
       "nombredepersonne":"4",
+      "image": "/images/ramen.jpg",
       "tempstotal":"45 minutes",
       "tempsdepréparation":"30 minutes",
       "tempsdecuisson":"15 minutes",
@@ -383,8 +391,10 @@
       ]
     },
     {
+      "id": 4,
       "titre":"Sushi Maki (poulet/avocat)",
       "nombredepersonne":"2",
+      "image": "/images/sushi.jpg",
       "tempstotal":"3 heures 25 minutes",
       "tempsdepréparation":"1 heure",
       "tempsdecuisson":"25 minutes",
@@ -480,8 +490,10 @@
       ]
     },
     {
+      "id": 5,
       "titre":"Bo bun, salade de boeuf à la vietnamienne",
       "nombredepersonne":"4",
+      "image": "/images/bobun.jpg",
       "tempstotal":"1 heure 50 minutes",
       "tempsdepréparation":"20 minutes",
       "tempsdecuisson":"30 minutes",
