@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Orienthai'Food</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+<header>
+    <a href="/" class="return">retour</a>
+    <h1 class="title">
+        Orienthai'Food
+    </h1>
+    <div class="line"></div>
+    <h2 class="subtitle">
+        Des petits plats orientales qui vous feront virer de bord
+    </h2>
+</header>
+<form action="/add" method="get">
+    <div id="addForm">
+        <p class="elementForm">
+            <label>Titre :</label>
+            <input type="text" name="titre">
+        </p>
+
+        <p class="elementForm">
+            <label>Pour combien de personnes ?</label>
+            <input type="number" name="nombredepersonne">
+        </p>
+
+        <p class="elementForm">
+            <label>Image :</label>
+            <input type="url" name="image">
+        </p>
+
+        <p class="elementForm">
+            <label>Temps total :</label>
+            <input type="text" name="tempstotal">
+        </p>
+
+        <p class="elementForm">
+            <label>Temps de préparation :</label>
+            <input type="text" name="tempsdepréparation">
+        </p>
+
+        <p class="elementForm">
+            <label>Temps de cuisson :</label>
+            <input type="text" name="tempsdecuisson">
+        </p>
+
+        <p class="elementForm">
+            <label>Temps de repos :</label>
+            <input type="text" name="tempsderepos">
+        </p>
+
+        <p class="elementForm">
+            <label>Difficulté :</label>
+            <input type="text" name="difficulte">
+        </p>
+        <br>
+        <p>
+            <label> Ingrédients</label>
+            <br>
+            <br>
+            <div class="ingredient">
+
+            </div>
+            <br>
+            <div class="ing">Ajouter un ingrédient</div>
+        </p>
+        <br>
+        <p>
+            <label>etapes</label>
+            <br>
+            <br>
+            <div class="etapes">
+
+            </div>
+            <br>
+            <div class="eta">Ajouter une etape</div>
+        </p>
+
+        <p class="elementForm">
+            <br>
+            <button type="submit">Ajouter</button>
+        </p>
+    </div>
+</form>
+<script src="/js/add.js"></script>
+</body>
+</html>

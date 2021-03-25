@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     recettes=>{
                         for (let j in recettes){
                             for (var i=0;i < recettes[j].length;i++){
+                                console.log(recettes[j][i])
                                 let divParent = _("div",document.querySelector("section"),null,null,"item_recette")
                                 display(recettes[j][i].titre,"div",divParent,"title_item")
                                 display_image(recettes[j][i].image,divParent)
@@ -34,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function display_link(url,parent){
         let link = document.createElement("a")
-        link.href = "/"+url;
+        link.href = "/ViewRecette/"+url;
         link.text = "voir la recette"
         link.classList.add("link_recette")
         parent.appendChild(link)

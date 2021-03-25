@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let section = document.querySelector("section")
     let body = document.querySelector("body")
 
-    fetch("/recette/:id")
+    fetch("/ShowRecette/:id")
         .then(
             res=>{
                 res.json().then(
@@ -21,7 +21,8 @@ document.addEventListener("DOMContentLoaded", () => {
                             if (item.tempsderepos != undefined)
                                 display("Temps de repos: "+ item.tempsderepos,"div",divParent,"prep")
                             display("Temps total: "+ item.tempstotal,"div",divParent,"prep")
-                            let divIngrédients = _("div",divParent,null,null,"flex_ingredients_parent")
+                            let divIngrédients = _("div",body,null,null,"flex_ingredients_parent")
+                            _("div",divIngrédients,"Ingrédients : ",null,"title_ingredients")
                             for (let l in item.ingredients){
                                 if (memory == item.ingredients[l].preparation)
                                     mem=true;
@@ -33,6 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                 memory = item.ingredients[l].preparation
                             }
                             let divEtapes = _("div",body,null,null,"flex_etapes_parent")
+                            _("div",divEtapes,"Préparation : ",null,"title_etapes")
                             for (let e in item.etapes){
                                 display_etapes(item.etapes[e],"div",divEtapes)
                             }

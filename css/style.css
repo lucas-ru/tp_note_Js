@@ -10,6 +10,9 @@
     src: url("Sand-Beach-Demo.ttf");
 }
 
+header{
+    margin-bottom: 20px;
+}
 
 .title{
     font-size: 45px;
@@ -70,7 +73,7 @@
 .flex_info_children_r{
     flex: auto;
 }
-.link_recette, .return{
+.add, .link_recette, .return{
     font-size: 15px;
     text-align: center;
     background-color: red;
@@ -96,8 +99,25 @@
     margin: 5px;
 }
 
+.add{
+    padding: 2px 5px 2px 5px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100px;
+}
+
 .flex_ingredients_parent{
-    margin: 20px 0px 20px 0px;
+    margin: 20px 0px 50px 80px;
+}
+
+.title_etapes, .title_ingredients{
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.title_etapes{
+    margin-left: 80px;
 }
 
 .item_ing_prep{
@@ -109,15 +129,11 @@
     margin-left: 30px;
 }
 
-.flex_ingredients_parent{
-    width: 100%;
-}
-
 .item_OneEtape{
     display: flex;
     flex-direction: row;
-    width: 100%;
-    margin: 5px;
+    width: 99%;
+    margin: 20px 10px 20px 20px;
 }
 
 .item_OneEtape_Nom{
@@ -128,4 +144,41 @@
 
 .item_OneEtape_Desc{
     flex: 2;
+}
+
+.flex_etapes_parent{
+    margin-bottom: 50px;
+}
+
+#addForm{
+    margin-left: 50px;
+}
+
+.elementForm{
+    padding: 5px;
+}
+
+
+.item_ing{
+    margin: 10px 0px 10px 0px;
+}
+
+.ing, .eta{
+    cursor: pointer;
+    width: 150px;
+    border: solid white 1px;
+}
+
+.item_style{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.delete{
+    float: right;
+    margin-right: 50px;
+    padding: 5px;
+    background-color: red;
+    border-radius: 3px;
 }
