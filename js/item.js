@@ -28,8 +28,6 @@ document.addEventListener("DOMContentLoaded", () => {
                                     mem=true;
                                 else
                                     mem = false
-                                console.log(memory)
-                                console.log(item.ingredients[l].preparation)
                                 display_ingredients(item.ingredients[l],"div",divIngrédients,mem)
                                 memory = item.ingredients[l].preparation
                             }
